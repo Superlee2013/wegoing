@@ -28,7 +28,8 @@ function hash(str) {
     return hash;
 }
 
-var headers = {
+const appid = 'wx7a727ff7d940bb3f';
+const headers = {
     'User-Agent': 'MicroMessenger/6.6.1.1220(0x26060133) NetType/WIFI Language/zh_CN',
     'Referer': 'https://servicewechat.com/wx7a727ff7d940bb3f/14/page-frame.html',
     'Content-Type': 'application/json',
@@ -48,8 +49,6 @@ let data = [{
     'key':'combo',
     'value':combo
 }];
-
-const appid = 'wx7a727ff7d940bb3f';
 
 let payload = {
     'appid': appid,
